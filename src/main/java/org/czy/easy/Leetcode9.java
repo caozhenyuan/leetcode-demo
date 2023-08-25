@@ -46,6 +46,9 @@ public class Leetcode9 {
         return true;
     }
 
+    /**
+     * 解题思路:使用数字反转,除以10取余数然后余数乘以除数当首位数，然后依次类推
+     */
     public static boolean isPalindrome2(int x) {
         if (x < 0) {
             return false;
